@@ -42,13 +42,25 @@ header h1 {
 }
 
 main {
-    max-width: 1110px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
 
-main div img {
-    width: 100%;
-    max-height: 500px;
+.mapa {
+    background-color: var(--silver);
+}
+
+.mapa img {
+    width: fit-content;
+}
+
+aside {
+    background-color: var(--vermillion);
+    border: 1px solid var(--yellow);
+    flex: 1;
+    padding: 1rem;
+}
+
+aside li {
+    margin-left: 30px;
 }
