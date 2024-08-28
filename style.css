@@ -43,7 +43,8 @@ header h1 {
 
 main {
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    justify-content: space-between;
 }
 
 .mapa {
@@ -54,13 +55,10 @@ main {
     width: fit-content;
 }
 
-aside {
-    background-color: var(--vermillion);
-    border: 1px solid var(--yellow);
-    flex: 1;
-    padding: 1rem;
+.menu {
+    box-shadow: 5px 5px 20px RGBA(0, 0, 0, .1);
 }
 
-aside li {
-    margin-left: 30px;
+.barra-resultado {
+    box-shadow: 5px 5px 20px RGBA(0, 0, 0, .1);
 }
