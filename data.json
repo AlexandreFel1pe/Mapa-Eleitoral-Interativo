@@ -1,0 +1,65 @@
+{
+    "eleicoes": [
+        {
+            "ano": "2022",
+                "turno": [
+                    {
+                        "turno": "1",
+                        "candidato": [
+                            {
+                                "candidato": "Bolsonaro",
+                                "partido": "PL",
+                                "votos": "50.000.000",
+                                "porcentagem": "45%"
+                            },
+                            {
+                                "candidato": "Lula",
+                                "partido": "PT",
+                                "votos": "52.000.000",
+                                "porcentagem": "49%"
+                            }
+                        ]
+                    },
+                    {
+                        "turno": "2",
+                        "candidato": [
+                            {
+                                "candidato": "Bolsonaro",
+                                "partido": "PL",
+                                "votos": "56.000.000",
+                                "porcentagem": "49%"
+                            },
+                            {
+                                "candidato": "Lula",
+                                "partido": "PT",
+                                "votos": "58.000.000",
+                                "porcentagem": "51%"
+                            }
+                        ]
+                    }
+                ]
+        },
+        {
+            "ano": "2018",
+                "turno": [
+                    {
+                        "turno": "1",
+                        "candidato": [
+                            {
+                                "candidato": "Bolsonaro",
+                                "partido": "PL",
+                                "votos": "68.000.000",
+                                "porcentagem": "60%"
+                            },
+                            {
+                                "candidato": "Lula",
+                                "partido": "PT",
+                                "votos": "90.000.000",
+                                "porcentagem": "40%"
+                            }
+                        ]
+                    }
+                ]
+        }
+    ]
+}

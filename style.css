@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 header h1 {
@@ -58,7 +58,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 5px 5px 20px RGBA(0, 0, 0, .1);
 }
 
@@ -131,9 +131,13 @@ main {
     margin: 10px 20px;
 }
 
+.candidatos {
+    display: flex;
+    flex-direction: column;
+}
+
 .candidato {
     display: flex;
-    gap: 20px;
     margin: 10px 20px;
     padding: 10px;
 
@@ -144,6 +148,7 @@ main {
     width: 56px;
     height: 56px;
     border-radius: 999px;
+    margin-inline: 20px;
 }
 
 .candidato div {
@@ -154,6 +159,8 @@ main {
 .nome-partido {
     display: flex;
     justify-content: center;
+    margin-inline: 20px;
+    width: 100px;
 }
 
 .candidato div h2 {
@@ -168,10 +175,39 @@ main {
 }
 
 .porcentagem {
-    margin: 0;
-    padding: 0;
-    height: 6px;
-    background-color: red;
-    border: 1px solid black;
-    border-radius: 16px;
+    background-color: var(--gunmetal);
+    height: 8px;
+    padding: 1px;
+    border-radius: 999px;
+}
+
+.porcentagem div {
+    height: 100%;
+    background-color: var(--vermillion);
+    border-radius: 999px;
+}
+
+.resultado {
+    margin-inline: 20px;
+}
+
+@media(max-width: 1110px) {
+    main {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mapa {
+        overflow: hidden;
+    }
+
+    .ano-eleicao div {
+        display: flex;
+        gap: 10px;
+    }
+
+    .ano-eleicao label {
+        border-right: 1px solid var(--gunmetal);
+        padding-right: 10px;
+    }
 }

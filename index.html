@@ -7,9 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Mapa Eleitoral Interativo</title>
 </head>
 <body>
+    <script type="text/javascript" src="/wz_tooltip/wz_tooltip.js"></script>
+
     <header>
         <h1>Mapa Eleitoral Interativo</h1>
     </header>
@@ -40,17 +43,19 @@
                 <form action="">
                     <p>Eleição</p>
 
-                    <label for="2022">
-                        <input type="radio" name="ano" id="2022">
-
-                        2022
-                    </label>
-
-                    <label for="2018">
-                        <input type="radio" name="ano" id="2018">
-
-                        2018
-                    </label>
+                    <div>
+                        <label for="2022">
+                            <input type="radio" name="ano" id="2022">
+    
+                            2022
+                        </label>
+    
+                        <label for="2018">
+                            <input type="radio" name="ano" id="2018">
+    
+                            2018
+                        </label>
+                    </div>
                 </form>
             </div>
         </aside>
@@ -59,64 +64,15 @@
             <img src="/images/Brazil_Political_Map_Final3.png" alt="Mapa politico do Brasil" usemap="#image-map">
                 
             <map name="image-map">
-                <area target="" alt="" title="" href="" coords="211,400,196,392,190,382,203,371,221,356,236,355,255,362,264,367,264,377,261,388,249,403,237,411,230,420,227,404,219,402" shape="poly">
+                <area onmouseover="Tip('Rio Grande do Sul')" onmouseout="UnTip()" target="" alt="" title="" href="" coords="211,400,196,392,190,382,203,371,221,356,236,355,255,362,264,367,264,377,261,388,249,403,237,411,230,420,227,404,219,402" shape="poly">
             </map>
         </div>
 
         <aside class="barra-resultado">
-            <p>Candidato</p>
+            <p>Candidatos</p>
 
-            <div class="candidato">
-                <div>
-                    <img src="images/Bolsonaro.jpg" alt="">
-                </div>
-
-                <div class="nome-partido">
-                    <h2>Candidato A</h2>
-
-                    <p>PO</p>
-
-                    <div class="porcentagem"></div>
-                </div>
-
-                <div>
-                    <strong>
-                        49%
-                    </strong>
-
-                    <span>56.000.000</span>
-
-                    <p>
-                        votos
-                    </p>
-                </div>
-            </div>
-
-            <div class="candidato">
-                <div>
-                    <img src="images/Bolsonaro.jpg" alt="">
-                </div>
-
-                <div class="nome-partido">
-                    <h2>Candidato A</h2>
-
-                    <p>PO</p>
-
-                    <div class="porcentagem"></div>
-                </div>
-
-                <div>
-                    <strong>
-                        49%
-                    </strong>
-
-                    <span>56.000.000</span>
-
-                    <p>
-                        votos
-                    </p>
-                </div>
-            </div>
+            <div class="candidatos">
+            </div">
         </aside>
     </main>
 </body>
