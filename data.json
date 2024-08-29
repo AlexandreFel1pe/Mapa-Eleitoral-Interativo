@@ -7,16 +7,505 @@
                         "turno": "1",
                         "candidato": [
                             {
-                                "candidato": "Bolsonaro",
-                                "partido": "PL",
-                                "votos": "50.000.000",
-                                "porcentagem": "45%"
-                            },
-                            {
                                 "candidato": "Lula",
                                 "partido": "PT",
-                                "votos": "52.000.000",
-                                "porcentagem": "49%"
+                                "votos": "60.345.999",
+                                "porcentagem": "50.90%"
+                            },
+                            {
+                                "candidato": "Bolsonaro",
+                                "partido": "PL",
+                                "votos": "58.206.454",
+                                "porcentagem": "49.10%"
+                            }
+                        ],
+
+                        "estado": [
+                            {
+                                "sigla": "AC",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "287.750",
+                                        "porcentagem": "70.30%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "121.566",
+                                        "porcentagem": "29.70%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AL",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "687.827",
+                                        "porcentagem": "41.32%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "976.831",
+                                        "porcentagem": "58.68%%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AP",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "200.547",
+                                        "porcentagem": "51.36%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "189.918",
+                                        "porcentagem": "48.64%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AM",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "961.741",
+                                        "porcentagem": "48.90%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.004.991",
+                                        "porcentagem": "51.10%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "BA",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "2.357.028",
+                                        "porcentagem": "27.88%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "6.097.815",
+                                        "porcentagem": "72.12%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "CE",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.634.477",
+                                        "porcentagem": "30.03%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "3.807.891",
+                                        "porcentagem": "69.97%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "DF",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.041.331",
+                                        "porcentagem": "58.81%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "729.295",
+                                        "porcentagem": "41.19%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "ES",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.282.145",
+                                        "porcentagem": "58.04%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "926.767",
+                                        "porcentagem": "41.96%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "GO",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "2.193.041",
+                                        "porcentagem": "58.71%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.542.115",
+                                        "porcentagem": "41.29%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MA",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.082.749",
+                                        "porcentagem": "28.86%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.668.425",
+                                        "porcentagem": "71.14%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MT",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.216.730",
+                                        "porcentagem": "65.08%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "652.786",
+                                        "porcentagem": "34.92%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MS",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "880.606",
+                                        "porcentagem": "59.49%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "599.547",
+                                        "porcentagem": "40.51%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MG",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "6.141.310",
+                                        "porcentagem": "49.80%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "6.190.960",
+                                        "porcentagem": "50.20%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PA",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "2.073.895",
+                                        "porcentagem": "45.25%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.509.084",
+                                        "porcentagem": "54.75%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PB",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "802.502",
+                                        "porcentagem": "33.38%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.601.953",
+                                        "porcentagem": "66.62%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PR",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "4.159.343",
+                                        "porcentagem": "62.40%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.506.605",
+                                        "porcentagem": "37.60%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PE",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.798.832",
+                                        "porcentagem": "33.07%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "3.640.933",
+                                        "porcentagem": "66.93%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PI",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "467.065",
+                                        "porcentagem": "23.14%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.551.383",
+                                        "porcentagem": "76.86%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RJ",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "5.403.894",
+                                        "porcentagem": "56.53%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "4.156.217",
+                                        "porcentagem": "43.47%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RN",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "711.381",
+                                        "porcentagem": "34.90%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.326.785",
+                                        "porcentagem": "65.10%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RS",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "3.733.185",
+                                        "porcentagem": "56.35%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.891.851",
+                                        "porcentagem": "43.65%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RO",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "633.236",
+                                        "porcentagem": "70.66%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "262.904",
+                                        "porcentagem": "29.34%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RR",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "213.518",
+                                        "porcentagem": "76.08%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "67.128",
+                                        "porcentagem": "23.92%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SC",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "3.047.630",
+                                        "porcentagem": "69.27%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.351.918",
+                                        "porcentagem": "30.73%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SP",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "14.216.587",
+                                        "porcentagem": "55.24%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "11.519.882",
+                                        "porcentagem": "44.76%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SE",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "421.086",
+                                        "porcentagem": "32.79%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "862.951",
+                                        "porcentagem": "67.21%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "TO",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "411.654",
+                                        "porcentagem": "48.64%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "434.593",
+                                        "porcentagem": "51.36%"
+                                    }
+                                ]
                             }
                         ]
                     },
