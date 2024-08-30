@@ -1,7 +1,7 @@
 const url = "/data.json";
 let resultado = {};
-let ano = "2022";
-let turno = "1";
+let ano = "vinteedois";
+let turno = "primeiro";
 
 async function mostrarCandidatos() {
     resultado = await fetch(url).then(resposta => resposta.json());
@@ -61,6 +61,7 @@ function adicionaEventoInput() {
             turno = evento.target.id
             mostrarCandidatos();
             criaDivComOsDadosDosEstados();
+            mudarCorDoLabel();
         });
     })
 
@@ -71,6 +72,7 @@ function adicionaEventoInput() {
             ano = evento.target.id
             mostrarCandidatos();
             criaDivComOsDadosDosEstados();
+            mudarCorDoLabel();
         });
     })
 }
@@ -132,3 +134,25 @@ function criaDiv(estado, candidatoA, candidatoB, votosA, votosB, porcentagemA, p
 }
 
 criaDivComOsDadosDosEstados();
+
+function mudarCorDoLabel() {
+    const labels = document.querySelectorAll("label");
+    labels.forEach(label => {
+        console.log(label)
+        label.style.backgroundColor = "#fff";
+        label.style.color = "#00001A";
+    })
+
+    const labelAno = document.querySelectorAll(`div form label`);
+    labelAno.forEach(label => {
+        if (label.getAttribute("for") === ano) {
+            label.style.color = "#F15D51";
+        }
+
+        if (label.getAttribute("for") === turno) {
+            label.style.backgroundColor  = "#F15D51";
+        }
+    })
+}
+
+mudarCorDoLabel();

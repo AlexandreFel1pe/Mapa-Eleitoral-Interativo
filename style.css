@@ -116,6 +116,10 @@ main {
     cursor: pointer;
 }
 
+.ano-eleicao input[type='radio']:checked + label::after {
+    background-color: green;
+}
+
 .ano-eleicao label:hover {
     color: var(--vermillion);
 }

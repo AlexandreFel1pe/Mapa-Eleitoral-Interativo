@@ -1,10 +1,10 @@
 {
     "eleicoes": [
         {
-            "ano": "2022",
+            "ano": "vinteedois",
                 "turno": [
                     {
-                        "turno": "1",
+                        "turno": "primeiro",
                         "candidato": [
                             {
                                 "candidato": "Lula",
@@ -25,7 +25,7 @@
                         ]
                     },
                     {
-                        "turno": "2",
+                        "turno": "segundo",
                         "candidato": [
                             {
                                 "candidato": "Bolsonaro",
@@ -533,10 +533,10 @@
                 ]
         },
         {
-            "ano": "2018",
+            "ano": "dezoito",
                 "turno": [
                     {
-                        "turno": "1",
+                        "turno": "primeiro",
                         "candidato": [
                             {
                                 "candidato": "Bolsonaro",
