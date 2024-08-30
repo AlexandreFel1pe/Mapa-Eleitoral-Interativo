@@ -48,6 +48,9 @@ main {
 
 .mapa {
     background-color: var(--silver);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mapa img {
