@@ -7,37 +7,526 @@
                         "turno": "primeiro",
                         "candidato": [
                             {
+                                "foto": "/images/Lula",
                                 "candidato": "Lula",
                                 "partido": "PT",
-                                "votos": "60.345.999",
-                                "porcentagem": "50.90%"
+                                "votos": "57.259.504",
+                                "porcentagem": "48.43"
                             },
                             {
+                                "foto": "/images/Bolsonaro",
                                 "candidato": "Bolsonaro",
                                 "partido": "PL",
-                                "votos": "58.206.454",
-                                "porcentagem": "49.10%"
+                                "votos": "51.072.345",
+                                "porcentagem": "43.20%"
                             }
                         ],
 
                         "estado": [
-                            
+                            {
+                                "sigla": "AC",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "275.582",
+                                        "porcentagem": "62.50%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "129.022",
+                                        "porcentagem": "29.26%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AL",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "621.515",
+                                        "porcentagem": "36.05%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "974.156",
+                                        "porcentagem": "56.50%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AP",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "187.621",
+                                        "porcentagem": "43.41%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "197.382",
+                                        "porcentagem": "45.67%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AM",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "880.198",
+                                        "porcentagem": "42.80%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.019.684",
+                                        "porcentagem": "49.58%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "BA",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "2.047.599",
+                                        "porcentagem": "24.31%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "5.873.081",
+                                        "porcentagem": "69.73%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "CE",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.377.827",
+                                        "porcentagem": "25.38%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "33.578.355",
+                                        "porcentagem": "65.91%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "DF",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "910.397",
+                                        "porcentagem": "51.65%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "649.534",
+                                        "porcentagem": "36.85%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "ES",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.160.030",
+                                        "porcentagem": "52.23%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "897.348",
+                                        "porcentagem": "40.40%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "GO",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.920.203",
+                                        "porcentagem": "52.16%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.454.723",
+                                        "porcentagem": "39.51%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MA",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "983.861",
+                                        "porcentagem": "26.02%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.603.454",
+                                        "porcentagem": "68.84%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MT",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.102.866",
+                                        "porcentagem": "59.84%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "633.748",
+                                        "porcentagem": "34.39%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MS",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "794.206",
+                                        "porcentagem": "52.70%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "588.323",
+                                        "porcentagem": "39.04%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MG",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "5.239.264",
+                                        "porcentagem": "43.60%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "5.802.571",
+                                        "porcentagem": "48.29%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PA",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.884.673",
+                                        "porcentagem": "40.27%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.443.730",
+                                        "porcentagem": "52.22%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PB",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "717.416",
+                                        "porcentagem": "29.62%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.554.868",
+                                        "porcentagem": "64,21%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PR",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "3.628.612",
+                                        "porcentagem": "55.26%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.363.492",
+                                        "porcentagem": "35.99%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PE",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "1.630.938",
+                                        "porcentagem": "29.91%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "3.558.322",
+                                        "porcentagem": "65.27%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PI",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "406.897",
+                                        "porcentagem": "19.90%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.518.008",
+                                        "porcentagem": "74.25%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RJ",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "4.831.246",
+                                        "porcentagem": "51.09%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "3.847.143",
+                                        "porcentagem": "40.68%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RN",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "622.731",
+                                        "porcentagem": "31.02%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.264.179",
+                                        "porcentagem": "62.98%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RS",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "3.245.023",
+                                        "porcentagem": "48.89%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "2.806.672",
+                                        "porcentagem": "42.28%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RO",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "581.306",
+                                        "porcentagem": "64.36%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "261.749",
+                                        "porcentagem": "28.98%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RR",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "207.587",
+                                        "porcentagem": "69.57%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "68.760",
+                                        "porcentagem": "23.05%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SC",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "2.694.406",
+                                        "porcentagem": "62.21%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "1.279.216",
+                                        "porcentagem": "29.54%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SP",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "12.239.989",
+                                        "porcentagem": "47.71%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "10.490.032",
+                                        "porcentagem": "40.89%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SE",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "378.610",
+                                        "porcentagem": "29.16%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "828.716",
+                                        "porcentagem": "63.82%"
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "TO",
+
+                                "candidato": [
+                                    {
+                                        "candidato": "Bolsonaro",
+                                        "partido": "PL",
+                                        "votos": "379.194",
+                                        "porcentagem": "44.00%"
+                                    },
+                                    {
+                                        "candidato": "Lula",
+                                        "partido": "PT",
+                                        "votos": "434.303",
+                                        "porcentagem": "50.40%"
+                                    }
+                                ]
+                            }
                         ]
                     },
                     {
                         "turno": "segundo",
                         "candidato": [
                             {
-                                "candidato": "Bolsonaro",
-                                "partido": "PL",
-                                "votos": "56.000.000",
-                                "porcentagem": "49%"
-                            },
-                            {
+                                "foto": "/images/Lula",
                                 "candidato": "Lula",
                                 "partido": "PT",
-                                "votos": "58.000.000",
-                                "porcentagem": "51%"
+                                "votos": "60.345.999",
+                                "porcentagem": "50.90%"
+                            },
+                            {
+                                "foto": "/images/Bolsonaro",
+                                "candidato": "Bolsonaro",
+                                "partido": "PL",
+                                "votos": "58.206.454",
+                                "porcentagem": "49.10%"
                             }
                         ],
 
@@ -539,16 +1028,691 @@
                         "turno": "primeiro",
                         "candidato": [
                             {
+                                "foto": "/images/Bolsonaro",
                                 "candidato": "Bolsonaro",
-                                "partido": "PL",
-                                "votos": "68.000.000",
-                                "porcentagem": "60%"
+                                "partido": "PSL",
+                                "votos": "49.276.990",
+                                "porcentagem": "46.03%"
                             },
                             {
-                                "candidato": "Lula",
+                                "foto": "/images/Haddad",
+                                "candidato": "Haddad",
                                 "partido": "PT",
-                                "votos": "90.000.000",
-                                "porcentagem": "40%"
+                                "votos": "31.342.005 ",
+                                "porcentagem": "29.28%"
+                            }
+                        ],
+
+                        "estado": [
+                            {
+                                "sigla": "AC",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AL",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AP",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AM",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "BA",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "CE",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "DF",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "ES",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "GO",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MA",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MT",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MS",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MG",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PA",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PB",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PR",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PE",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PI",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RJ",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RN",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RS",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RO",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RR",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SC",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SP",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SE",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "TO",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "turno": "segundo",
+                        "candidato": [
+                            {
+                                "foto": "/images/Bolsonaro",
+                                "candidato": "Bolsonaro",
+                                "partido": "PSL",
+                                "votos": "57.797.847",
+                                "porcentagem": "55.13%"
+                            },
+                            {
+                                "foto": "/images/Haddad",
+                                "candidato": "Haddad",
+                                "partido": "PT",
+                                "votos": "47.040.906",
+                                "porcentagem": "44.87%"
+                            }
+                        ],
+
+                        "estado": [
+                            {
+                                "sigla": "AC",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AL",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AP",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "AM",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "BA",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "CE",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "DF",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "ES",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "GO",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MA",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MT",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MS",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "MG",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PA",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PB",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PR",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PE",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "PI",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RJ",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RN",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RS",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RO",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "RR",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SC",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SP",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "SE",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "sigla": "TO",
+
+                                "candidato": [
+                                    {
+                                        
+                                    },
+                                    {
+                                        
+                                    }
+                                ]
                             }
                         ]
                     }

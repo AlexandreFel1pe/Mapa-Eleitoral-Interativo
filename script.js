@@ -17,7 +17,7 @@ async function mostrarCandidatos() {
                         candidato.innerHTML += `
                                 <div class="candidato">
                                     <div>
-                                    <img src="images/Bolsonaro.jpg" alt="">
+                                    <img src="${resultado.eleicoes[i].turno[k].candidato[j].foto}.jpg" alt="">
                                 </div>
                 
                                 <div class="nome-partido">
@@ -130,6 +130,9 @@ async function criaDivComOsDadosDosEstados() {
 function criaDiv(estado, candidatoA, candidatoB, votosA, votosB, porcentagemA, porcentagemB) {
     let div = `<div><h3>${estado}</h3><p>${candidatoA}: ${porcentagemA} | ${votosA}</p><p>${candidatoB}: ${porcentagemB} | ${votosB}</p></div>`;
 
+    if (candidatoA === undefined) {
+        return "Dados indisponiveis";
+    }
     return div;
 }
 
@@ -138,7 +141,6 @@ criaDivComOsDadosDosEstados();
 function mudarCorDoLabel() {
     const labels = document.querySelectorAll("label");
     labels.forEach(label => {
-        console.log(label)
         label.style.backgroundColor = "#fff";
         label.style.color = "#00001A";
     })
