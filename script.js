@@ -60,6 +60,7 @@ function adicionaEventoInput() {
         input.addEventListener("click", (evento) => {
             turno = evento.target.id
             mostrarCandidatos();
+            criaDivComOsDadosDosEstados();
         });
     })
 
@@ -69,6 +70,7 @@ function adicionaEventoInput() {
         input.addEventListener("click", (evento) => {
             ano = evento.target.id
             mostrarCandidatos();
+            criaDivComOsDadosDosEstados();
         });
     })
 }
@@ -79,8 +81,18 @@ async function criaDivComOsDadosDosEstados() {
     const divResultado = document.querySelector(".resultadoEstado");
 
     resultado = await fetch(url).then(resposta => resposta.json());
-    let rgs = `Resultado <br> Bolsonaro: ${resultado.eleicoes[0].turno[0].estado[0].candidato[0].votos} <br> Lula: ${resultado.eleicoes[0].turno[0].estado[0].candidato[1].votos}`
-    let estado = resultado.eleicoes[0].turno[0].estado;
+
+    var estado = {};
+
+    for (var i = 0; i < resultado.eleicoes.length; i++) {
+        for (var j = 0; j < resultado.eleicoes[i].turno.length; j++) {
+            if ((resultado.eleicoes[i].ano === ano) && (resultado.eleicoes[i].turno[j].turno === turno)) {
+                estado = resultado.eleicoes[i].turno[j].estado;
+            }
+        }
+    }
+
+    divResultado.innerHTML = null;
 
     divResultado.innerHTML = `
         <area onmouseover="Tip('${criaDiv("Acre", estado[0].candidato[0].candidato, estado[0].candidato[1].candidato, estado[0].candidato[0].votos, estado[0].candidato[1].votos, estado[0].candidato[0].porcentagem, estado[0].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Acre" title="Acre" href="" coords="17,137,32,144,52,149,68,157,83,162,88,165,83,171,75,177,68,180,58,179,49,178,51,162,41,167,32,169,23,161,16,145" shape="poly">
@@ -102,8 +114,8 @@ async function criaDivComOsDadosDosEstados() {
         <area onmouseover="Tip('${criaDiv("Pernambuco", estado[16].candidato[0].candidato, estado[16].candidato[1].candidato, estado[16].candidato[0].votos, estado[16].candidato[1].votos, estado[16].candidato[0].porcentagem, estado[16].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Pernambuco" title="Pernambuco" href="" coords="364,161,358,156,362,148,364,141,372,139,380,143,388,145,400,141,397,147,405,147,416,142,423,142,420,155,411,156,403,161,394,156,386,160,378,154,371,157" shape="poly">
         <area onmouseover="Tip('${criaDiv("Piaui", estado[17].candidato[0].candidato, estado[17].candidato[1].candidato, estado[17].candidato[0].votos, estado[17].candidato[1].votos, estado[17].candidato[0].porcentagem, estado[17].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Piaui" title="Piaui" href="" coords="308,171,308,160,312,145,325,137,338,133,336,117,342,100,352,91,356,104,358,113,362,130,367,137,363,149,354,157,345,161,335,163,328,173,316,178" shape="poly">
         <area onmouseover="Tip('${criaDiv("Rio de Janiero", estado[18].candidato[0].candidato, estado[18].candidato[1].candidato, estado[18].candidato[0].votos, estado[18].candidato[1].votos, estado[18].candidato[0].porcentagem, estado[18].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Rio de Janeiro" title="Rio de Janeiro" href="" coords="348,287,355,291,359,300,351,305,342,309,332,309,324,309,320,304,331,301,339,298,346,293" shape="poly">
-        <area onmouseover="Tip('${criaDiv("Rio Grande do Sul", estado[19].candidato[0].candidato, estado[19].candidato[1].candidato, estado[19].candidato[0].votos, estado[19].candidato[1].votos, estado[19].candidato[0].porcentagem, estado[19].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Rio Grande do Norte" title="Rio Grande do Norte" href="" coords="388,129,390,119,397,113,406,117,414,117,420,123,420,130,413,130,405,133,399,133,398,126" shape="poly">
-        <area onmouseover="Tip('${criaDiv("Rio Grande do Norte", estado[20].candidato[0].candidato, estado[20].candidato[1].candidato, estado[20].candidato[0].votos, estado[20].candidato[1].votos, estado[20].candidato[0].porcentagem, estado[20].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Rio Grande do Sul" title="Rio Grande do Sul" href="" coords="224,355,236,356,248,361,258,368,267,370,264,378,260,392,251,403,242,405,239,415,231,421,228,411,216,403,209,395,198,389,188,386,198,373,211,365" shape="poly">
+        <area onmouseover="Tip('${criaDiv("Rio Grande do Norte", estado[19].candidato[0].candidato, estado[19].candidato[1].candidato, estado[19].candidato[0].votos, estado[19].candidato[1].votos, estado[19].candidato[0].porcentagem, estado[19].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Rio Grande do Norte" title="Rio Grande do Norte" href="" coords="388,129,390,119,397,113,406,117,414,117,420,123,420,130,413,130,405,133,399,133,398,126" shape="poly">
+        <area onmouseover="Tip('${criaDiv("Rio Grande do Sul", estado[20].candidato[0].candidato, estado[20].candidato[1].candidato, estado[20].candidato[0].votos, estado[20].candidato[1].votos, estado[20].candidato[0].porcentagem, estado[20].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Rio Grande do Sul" title="Rio Grande do Sul" href="" coords="224,355,236,356,248,361,258,368,267,370,264,378,260,392,251,403,242,405,239,415,231,421,228,411,216,403,209,395,198,389,188,386,198,373,211,365" shape="poly">
         <area onmouseover="Tip('${criaDiv("Rondonia", estado[21].candidato[0].candidato, estado[21].candidato[1].candidato, estado[21].candidato[0].votos, estado[21].candidato[1].votos, estado[21].candidato[0].porcentagem, estado[21].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Rondonia" title="Rondonia" href="" coords="142,159,142,171,144,178,152,179,157,182,159,193,156,201,149,208,139,207,130,200,123,196,116,194,108,186,105,174,92,165,101,162,113,155,122,148,132,149" shape="poly">
         <area onmouseover="Tip('${criaDiv("Roraima", estado[22].candidato[0].candidato, estado[22].candidato[1].candidato, estado[22].candidato[0].votos, estado[22].candidato[1].votos, estado[22].candidato[0].porcentagem, estado[22].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Roraima" title="Roraima" href="" coords="142,76,134,69,136,60,132,42,124,34,120,29,112,14,123,18,133,18,146,11,156,5,158,16,161,25,162,36,168,45,172,53,168,57,160,59,156,70,146,65" shape="poly">
         <area onmouseover="Tip('${criaDiv("Santa Catarina", estado[23].candidato[0].candidato, estado[23].candidato[1].candidato, estado[23].candidato[0].votos, estado[23].candidato[1].votos, estado[23].candidato[0].porcentagem, estado[23].candidato[1].porcentagem)}')" onmouseout="UnTip()" target="" alt="Santa Catarina" title="Santa Catarina" href="" coords="228,343,240,345,248,349,260,345,273,343,279,344,278,351,278,361,278,370,266,378,257,362,247,360,235,357,225,354" shape="poly">

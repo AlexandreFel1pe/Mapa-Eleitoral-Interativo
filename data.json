@@ -21,6 +21,27 @@
                         ],
 
                         "estado": [
+                            
+                        ]
+                    },
+                    {
+                        "turno": "2",
+                        "candidato": [
+                            {
+                                "candidato": "Bolsonaro",
+                                "partido": "PL",
+                                "votos": "56.000.000",
+                                "porcentagem": "49%"
+                            },
+                            {
+                                "candidato": "Lula",
+                                "partido": "PT",
+                                "votos": "58.000.000",
+                                "porcentagem": "51%"
+                            }
+                        ],
+
+                        "estado": [
                             {
                                 "sigla": "AC",
 
@@ -506,23 +527,6 @@
                                         "porcentagem": "51.36%"
                                     }
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "turno": "2",
-                        "candidato": [
-                            {
-                                "candidato": "Bolsonaro",
-                                "partido": "PL",
-                                "votos": "56.000.000",
-                                "porcentagem": "49%"
-                            },
-                            {
-                                "candidato": "Lula",
-                                "partido": "PT",
-                                "votos": "58.000.000",
-                                "porcentagem": "51%"
                             }
                         ]
                     }
